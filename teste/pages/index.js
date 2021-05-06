@@ -7,9 +7,11 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
-        <meta name="description" content="texte de head" />
+        <meta name="description" content="texte de head waltao doido" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+     
 
       <main className={styles.main}>
         <h1 className={styles.title}>
