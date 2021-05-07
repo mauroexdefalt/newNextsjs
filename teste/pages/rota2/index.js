@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Rota2</title>
         <meta name="description" content="teste rota2" />
-        <meta property="og:image" content=" https://res.cloudinary.com/practicaldev/image/fetch/s--UVX7ie6K--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/v4y43jjfj7u5r8to8qdu.png" />        
+        <meta property="og:image" content="https://pics.me.me/thumb_uol-pai-de-fam%C3%ADlia-jailson-mendes-dono-do-meme-a%C3%AD-53126041.png"/>        
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
