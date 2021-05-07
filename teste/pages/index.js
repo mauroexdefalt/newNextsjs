@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <meta name="description" content="teste nextjs" />
-        <meta property="og:image" content="https://cdn.worldvectorlogo.com/logos/nextjs-3.svg" /> 
+        <meta property="og:image" content="https://ichi.pro/assets/images/max/724/1*Hva7hcsFWulFUPhrEWui1A.jpeg"/> 
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
