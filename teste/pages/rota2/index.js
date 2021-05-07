@@ -6,9 +6,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <meta name="description" content="teste nextjs" />
-        <meta property="og:image" content="https://cdn.worldvectorlogo.com/logos/nextjs-3.svg" /> 
+        <title>Rota2</title>
+        <meta name="description" content="teste rota2" />
+        <meta property="og:image" content=" https://res.cloudinary.com/practicaldev/image/fetch/s--UVX7ie6K--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/v4y43jjfj7u5r8to8qdu.png" />        
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -16,7 +16,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js! Mauro teste</a>
+          Welcome to <a href="https://nextjs.org">Next.js! Mauro Rota2</a>
         </h1>
 
         <p className={styles.description}>
