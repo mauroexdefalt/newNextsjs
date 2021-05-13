@@ -22,7 +22,7 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <meta name="description" content="teste nextjs" />
-        <meta property="og:image" content="https://ichi.pro/assets/images/max/724/1*Hva7hcsFWulFUPhrEWui1A.jpeg" />
+           <meta property="og:image" content="https://ichi.pro/assets/images/max/724/1*Hva7hcsFWulFUPhrEWui1A.jpeg" />
       </Head>
 
 
@@ -31,7 +31,7 @@ export default function Home() {
 
       }} >muda head</button>
 
-<Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+<Image src="/assets/fox.jpg" alt="Vercel Logo" width={300} height={300} />
 
      
 
