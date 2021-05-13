@@ -8,13 +8,14 @@ export default function Home() {
 
 
 
-  const [pos, setPos] = useState(0)
+  const [pos, setPos] = useState()
 
   const imgs = ['https://cdn.pixabay.com/photo/2019/04/04/15/17/smartphone-4103051__340.jpg',
     'https://cdn.pixabay.com/photo/2013/12/11/03/13/puzzle-226743__340.jpg',
     "https://ichi.pro/assets/images/max/724/1*Hva7hcsFWulFUPhrEWui1A.jpeg"
 
   ]
+
   useEffect(()=>{
 
     setPos(1)
