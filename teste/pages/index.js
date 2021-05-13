@@ -18,7 +18,7 @@ export default function Home() {
 
   useEffect(()=>{
 
-    setPos(1)
+    setPos(imgs[1])
   
 
   },[])
@@ -33,7 +33,7 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <meta name="description" content="teste nextjs" />
-        <meta property="og:image" content={imgs[pos]} />
+        <meta property="og:image" content={pos} />
       </Head>
 
 
