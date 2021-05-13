@@ -8,7 +8,8 @@ export default function Home() {
 
   const imgs = ['https://cdn.pixabay.com/photo/2019/04/04/15/17/smartphone-4103051__340.jpg',
   'https://cdn.pixabay.com/photo/2013/12/11/03/13/puzzle-226743__340.jpg',
-  "https://ichi.pro/assets/images/max/724/1*Hva7hcsFWulFUPhrEWui1A.jpeg"
+  "https://ichi.pro/assets/images/max/724/1*Hva7hcsFWulFUPhrEWui1A.jpeg",
+  "https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2019/08/O-que-e-url.png"
 
 ]
 
@@ -16,7 +17,7 @@ export default function Home() {
 
   const [pos, setPos] = useState()
 
-  console.log('pos atual',imgs[1])
+  console.log('pos atual',imgs[3])
 
 
 
