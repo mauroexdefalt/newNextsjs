@@ -6,25 +6,26 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
 
 
+  const imgs = ['https://cdn.pixabay.com/photo/2019/04/04/15/17/smartphone-4103051__340.jpg',
+  'https://cdn.pixabay.com/photo/2013/12/11/03/13/puzzle-226743__340.jpg',
+  "https://ichi.pro/assets/images/max/724/1*Hva7hcsFWulFUPhrEWui1A.jpeg"
+
+]
+
 
 
   const [pos, setPos] = useState()
 
-  const imgs = ['https://cdn.pixabay.com/photo/2019/04/04/15/17/smartphone-4103051__340.jpg',
-    'https://cdn.pixabay.com/photo/2013/12/11/03/13/puzzle-226743__340.jpg',
-    "https://ichi.pro/assets/images/max/724/1*Hva7hcsFWulFUPhrEWui1A.jpeg"
+  console.log('pos atual',imgs[1])
 
-  ]
 
-  useEffect(()=>{
 
-    setPos(imgs[1])
+
+
+
   
 
-  },[])
-
-
-  console.log('pos atual',pos)
+  const meta =   <meta property="og:image" content={imgs[1]} />
 
 
 
@@ -33,7 +34,8 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <meta name="description" content="teste nextjs" />
-        <meta property="og:image" content={pos} />
+        {meta}
+      
       </Head>
 
 
