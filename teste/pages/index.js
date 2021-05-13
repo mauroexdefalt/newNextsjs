@@ -15,6 +15,15 @@ export default function Home() {
     "https://ichi.pro/assets/images/max/724/1*Hva7hcsFWulFUPhrEWui1A.jpeg"
 
   ]
+  useEffect(()=>{
+
+    setPos(1)
+  
+
+  },[])
+
+
+  console.log('pos atual',pos)
 
 
 
